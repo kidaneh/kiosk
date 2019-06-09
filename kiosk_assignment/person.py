@@ -15,5 +15,6 @@ class Person():
         return self.phone
 
     def __str__(self):
-        return "Full name is" + self.name +" " + self.lname
+       # return "Full name is" + self.name +" " + self.lname
+       return self.name
 
